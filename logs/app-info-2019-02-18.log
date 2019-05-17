@@ -1,0 +1,11 @@
+[INFO ] 2019-02-18 12:34:48.192 [main] Log4jDemo - This is information message
+[ERROR] 2019-02-18 12:34:48.203 [main] Log4jDemo - This is an error message
+[WARN ] 2019-02-18 12:34:48.204 [main] Log4jDemo - This is a warning message
+[FATAL] 2019-02-18 12:34:48.204 [main] Log4jDemo - This is a fatal message
+[INFO ] 2019-02-18 12:35:18.621 [main] Log4jDemo - This is information message
+[ERROR] 2019-02-18 12:35:18.622 [main] Log4jDemo - This is an error message
+[WARN ] 2019-02-18 12:35:18.622 [main] Log4jDemo - This is a warning message
+[FATAL] 2019-02-18 12:35:18.623 [main] Log4jDemo - This is a fatal message
+[INFO ] 2019-02-18 21:17:59.585 [main] Log4jDemo - Browser Started
+[INFO ] 2019-02-18 22:28:58.409 [main] Log4jDemo - Browser Started
+[INFO ] 2019-02-18 23:02:54.032 [main] Log4jDemo - Browser Started

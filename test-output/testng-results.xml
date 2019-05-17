@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+    <groups>
+      <group name="alltestclasses">
+        <method signature="TestNGGroupDemo.test1()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test1" class="grouping.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" class="grouping.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" class="grouping.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test4()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test4" class="grouping.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test5()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test5" class="grouping.TestNGGroupDemo"/>
+      </group> <!-- alltestclasses -->
+      <group name="regression">
+        <method signature="TestNGGroupDemo.test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" class="grouping.TestNGGroupDemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNGGroupDemo.test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" class="grouping.TestNGGroupDemo"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNGGroupDemo.test1()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test1" class="grouping.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" class="grouping.TestNGGroupDemo"/>
+        <method signature="TestNGGroupDemo.test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" class="grouping.TestNGGroupDemo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="43" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+      <class name="grouping.TestNGGroupDemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test1" duration-ms="8" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" duration-ms="1" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" duration-ms="1" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test4" duration-ms="1" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test5" duration-ms="1" started-at="2019-05-13T05:13:01Z" depends-on-methods="grouping.TestNGGroupDemo.test4, grouping.TestNGGroupDemo.test2" finished-at="2019-05-13T05:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- grouping.TestNGGroupDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
