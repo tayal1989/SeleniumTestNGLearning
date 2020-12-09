@@ -3,17 +3,17 @@
 <suite name="Suite">
   <test name="Test">
   
-  	<groups>
-  	
-  		<!-- 
-  		<define name="Regression1">
+  	<groups>  	
+  		
+  		<!-- <define name="All">
   			<include name="regression"></include>
   			<include name="smoke"></include>
-  		</define>
-  		 -->
-  		<run>
-  			<include name="alltestclasses"></include>
-  		</run>
+  		</define> -->
+  		
+  		<!-- <run>
+  			<include name="sanity"></include>
+  			<exclude name="smoke"></exclude>
+  		</run> -->
   	</groups>
   
     <classes>

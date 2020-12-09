@@ -11,6 +11,8 @@
 	<properties>
 		<jre.level>1.8</jre.level>
 		<jdk.level>1.8</jdk.level>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	
 	<build>
@@ -43,12 +45,36 @@
                     </properties>
                     
                     <suiteXmlFiles>
-						<suiteXmlFile>testng_grouping.xml</suiteXmlFile>
+						<suiteXmlFile>RunAll.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
                     <reportsDirectory>./target/surefire-reports</reportsDirectory>					
 				</configuration>
 			</plugin>
+			
+			<!-- JaCoCo configuration -->
+	        <plugin>
+	            <groupId>org.jacoco</groupId>
+	            <artifactId>jacoco-maven-plugin</artifactId>
+	            <version>0.7.9</version>
+	            <executions>
+			        <execution>
+			          <id>pre-unit-test</id>
+			          <goals>
+			            <goal>prepare-agent</goal>
+			          </goals>
+			        </execution>
+			        
+			        <execution>
+			          <id>post-unit-test</id>
+			          <phase>test</phase>
+			          <goals>
+			            <goal>report</goal>
+			          </goals>
+			        </execution>
+		      	</executions>
+	        </plugin>
+			
 		</plugins>
 	</build>
 	
@@ -102,6 +128,13 @@
             <artifactId>xml-apis</artifactId>
             <version>1.4.01</version>
         </dependency>
+		
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.7.9</version>
+		</dependency>
+		
 	</dependencies>
 	
 

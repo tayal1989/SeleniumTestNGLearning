@@ -14,6 +14,8 @@ public class TestNGDemo2 {
 	@BeforeTest
 	public void setUpTest() {
 		System.out.println("Before Test");
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "/resources/chromedriver.exe");
 		chromeDriver = new ChromeDriver();
 	}
 	
@@ -66,6 +68,6 @@ public class TestNGDemo2 {
 	@AfterTest
 	public void tearDownTest() {
 		System.out.println("After Test");
-		chromeDriver.close();
+		chromeDriver.quit();
 	}
 }

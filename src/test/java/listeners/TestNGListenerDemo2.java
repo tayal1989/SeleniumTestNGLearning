@@ -1,10 +1,9 @@
 package listeners;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
-
-//@Listeners(listeners.TestNGListeners.class)
+@Listeners(listeners.TestNGListeners.class)
 public class TestNGListenerDemo2 {
 
 	@Test

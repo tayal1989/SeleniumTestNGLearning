@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <parameter name="testType" value="Integration"/>
+    <test name="SeleniumTestNGLearning">
+
+        <classes>
+            <class name="grouping.TestNGGroupDemo" />
+            <class name="listeners.TestNGListenerDemo"/>
+      		<class name="listeners.TestNGListenerDemo2"/>
+            <class name="retry_fail_cases.TestNGRetryFailDemo"/>
+        </classes>
+    </test>
+
+</suite>

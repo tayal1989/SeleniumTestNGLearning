@@ -13,6 +13,8 @@ public class GoogleSearchPageTest {
 	}
 	
 	public static void googleSearchTest() {
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "/resources/chromedriver.exe");
 		chromeDriver = new ChromeDriver();
 		
 		chromeDriver.get("https://www.google.com/");
@@ -32,7 +34,7 @@ public class GoogleSearchPageTest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} finally {
-			chromeDriver.close();
+			chromeDriver.quit();
 		}
 	}
 }

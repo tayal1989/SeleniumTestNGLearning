@@ -18,12 +18,6 @@ public class ExcelUtils {
 			exp.printStackTrace() ;
 		}
 	}
-	
-	public static void main(String[] args) {
-		getRowCount();
-		getCellDataString(0, 0);
-		getCellDataNumeric(1, 1);
-	}
 
 	public static int getRowCount() {
 		int rowCount = 0 ;
@@ -61,5 +55,11 @@ public class ExcelUtils {
 			System.out.println(exp.getCause()) ;
 			exp.printStackTrace() ;
 		}
+	}
+	
+	public static void main(String[] args) {
+		getRowCount();
+		getCellDataString(0, 0);
+		getCellDataNumeric(1, 1);
 	}
 }

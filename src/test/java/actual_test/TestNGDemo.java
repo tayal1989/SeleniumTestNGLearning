@@ -23,7 +23,9 @@ public class TestNGDemo {
 		PropertiesFile.getProperties();
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/vishal/Vishal_Agarwal/E_Drive/Workspace_Eclipse_Java_Projects/Workspace/SeleniumFrameworkUdemy/drivers/chromedriver/chromedriver");
+//			System.setProperty("webdriver.chrome.driver", "/home/vishal/Vishal_Agarwal/E_Drive/Workspace_Eclipse_Java_Projects/Workspace/SeleniumFrameworkUdemy/drivers/chromedriver/chromedriver");
+			System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if(browserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
@@ -57,7 +59,7 @@ public class TestNGDemo {
 	
 	@AfterTest
 	public void tearDownTest() {
-		driver.close();
+		driver.quit();
 		PropertiesFile.setProperties();
 	}
 }

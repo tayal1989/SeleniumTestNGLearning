@@ -10,11 +10,12 @@ public class GoogleSearchTest {
 	private static WebDriver chromeDriver = null ;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		searchGoogleEngine();
 	}
 
 	public static void searchGoogleEngine(){
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir") + "/resources/chromedriver.exe");
 		chromeDriver = new ChromeDriver();
 		
 		chromeDriver.get("https://www.google.com/");
@@ -32,7 +33,7 @@ public class GoogleSearchTest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} finally {
-			chromeDriver.close();
+			chromeDriver.quit();
 		}	
 		
 	}

@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 
 public class TestNGRetryFailDemo {
 
-	@Test
+	@Test(retryAnalyzer = MyRetry.class)
 	public void test1() {
 		System.out.println("I am in test 1");
 	}
 	
-	@Test
+	@Test(retryAnalyzer = MyRetry.class)
 	public void test2() {
 		System.out.println("I am in test 2");
 		//int i = 1/0 ;
