@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <parameter name="testType" value="Integration"/>
+  <parameter name="enableReporterLogging" value="true"/>
+  <test thread-count="5" name="Backend Services(failed)">
+    <classes>
+      <class name="retry_fail_cases.TestNGRetryFailDemo">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- retry_fail_cases.TestNGRetryFailDemo -->
+    </classes>
+  </test> <!-- Backend Services(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

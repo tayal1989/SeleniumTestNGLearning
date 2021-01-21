@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+  <suite name="Suite" duration-ms="21255" started-at="2021-01-06T07:06:57Z" finished-at="2021-01-06T07:07:18Z">
     <groups>
-      <group name="alltestclasses">
-        <method signature="TestNGGroupDemo.test1()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test1" class="grouping.TestNGGroupDemo"/>
-        <method signature="TestNGGroupDemo.test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" class="grouping.TestNGGroupDemo"/>
-        <method signature="TestNGGroupDemo.test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" class="grouping.TestNGGroupDemo"/>
-        <method signature="TestNGGroupDemo.test4()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test4" class="grouping.TestNGGroupDemo"/>
-        <method signature="TestNGGroupDemo.test5()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test5" class="grouping.TestNGGroupDemo"/>
-      </group> <!-- alltestclasses -->
-      <group name="regression">
-        <method signature="TestNGGroupDemo.test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" class="grouping.TestNGGroupDemo"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="TestNGGroupDemo.test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" class="grouping.TestNGGroupDemo"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="TestNGGroupDemo.test1()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test1" class="grouping.TestNGGroupDemo"/>
-        <method signature="TestNGGroupDemo.test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" class="grouping.TestNGGroupDemo"/>
-        <method signature="TestNGGroupDemo.test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" class="grouping.TestNGGroupDemo"/>
-      </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="43" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
-      <class name="grouping.TestNGGroupDemo">
-        <test-method status="PASS" signature="test1()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test1" duration-ms="8" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+    <test name="Test_Chrome" duration-ms="11880" started-at="2021-01-06T07:06:57Z" finished-at="2021-01-06T07:07:09Z">
+      <class name="multiple_browser.TestNGMultipleBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:multiple_browser.TestNGMultipleBrowserDemo@4524411f]" name="setUp" is-config="true" duration-ms="5340" started-at="2021-01-06T07:06:57Z" finished-at="2021-01-06T07:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test2" duration-ms="1" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:multiple_browser.TestNGMultipleBrowserDemo@4524411f]" name="test" duration-ms="5959" started-at="2021-01-06T07:07:02Z" finished-at="2021-01-06T07:07:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test3" duration-ms="1" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:multiple_browser.TestNGMultipleBrowserDemo@4524411f]" name="tearDown" is-config="true" duration-ms="540" started-at="2021-01-06T07:07:08Z" finished-at="2021-01-06T07:07:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test4" duration-ms="1" started-at="2019-05-13T05:13:01Z" finished-at="2019-05-13T05:13:01Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- multiple_browser.TestNGMultipleBrowserDemo -->
+    </test> <!-- Test_Chrome -->
+    <test name="Test_Firefox" duration-ms="21255" started-at="2021-01-06T07:06:57Z" finished-at="2021-01-06T07:07:18Z">
+      <class name="multiple_browser.TestNGMultipleBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:multiple_browser.TestNGMultipleBrowserDemo@4fcd19b3]" name="setUp" is-config="true" duration-ms="11905" started-at="2021-01-06T07:06:57Z" finished-at="2021-01-06T07:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="test5()[pri:0, instance:grouping.TestNGGroupDemo@77caeb3e]" name="test5" duration-ms="1" started-at="2019-05-13T05:13:01Z" depends-on-methods="grouping.TestNGGroupDemo.test4, grouping.TestNGGroupDemo.test2" finished-at="2019-05-13T05:13:01Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:multiple_browser.TestNGMultipleBrowserDemo@4fcd19b3]" name="test" duration-ms="6867" started-at="2021-01-06T07:07:09Z" finished-at="2021-01-06T07:07:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
-      </class> <!-- grouping.TestNGGroupDemo -->
-    </test> <!-- Test -->
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:multiple_browser.TestNGMultipleBrowserDemo@4fcd19b3]" name="tearDown" is-config="true" duration-ms="2476" started-at="2021-01-06T07:07:15Z" finished-at="2021-01-06T07:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multiple_browser.TestNGMultipleBrowserDemo -->
+    </test> <!-- Test_Firefox -->
   </suite> <!-- Suite -->
 </testng-results>

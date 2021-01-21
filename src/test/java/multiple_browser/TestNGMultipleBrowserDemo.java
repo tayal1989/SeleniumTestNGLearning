@@ -18,8 +18,12 @@ public class TestNGMultipleBrowserDemo {
 		System.out.println("Thread id : " + Thread.currentThread().getId());
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if(browserName.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver",
+					System.getProperty("user.dir") + "/resources/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 	}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="768e6d36-f36e-4ee1-9ff8-f3135053f057" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testngbeforeafter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mylogsxml.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mylogsxml.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actual_test/GoogleSearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actual_test/GoogleSearchPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actual_test/GoogleSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actual_test/GoogleSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actual_test/TestNGDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actual_test/TestNGDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actual_test/TestNGDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actual_test/TestNGDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/grouping/TestNGGroupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/grouping/TestNGGroupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenerDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/retry_fail_cases/MyRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/retry_fail_cases/MyRetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/retry_fail_cases/TestNGRetryFailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/retry_fail_cases/TestNGRetryFailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-actual_test.TestNGDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-actual_test.TestNGDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-actual_test.TestNGDemo2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-actual_test.TestNGDemo2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-grouping.TestNGGroupDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-grouping.TestNGGroupDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-listeners.TestNGListenerDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-listeners.TestNGListenerDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-listeners.TestNGListenerDemo2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-listeners.TestNGListenerDemo2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-priority.TestPriorityDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-priority.TestPriorityDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-retry_fail_cases.TestNGRetryFailDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-retry_fail_cases.TestNGRetryFailDemo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-utils.ExcelDataProvider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-utils.ExcelDataProvider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_grouping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_grouping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_listener.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_listener.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lQR0XThr9fQKImtOjmqwl1gACp" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="768e6d36-f36e-4ee1-9ff8-f3135053f057" name="Default Changelist" comment="" />
+      <created>1607527111242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607527111242</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1607527145323">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607527145323" />
+  </component>
+</project>

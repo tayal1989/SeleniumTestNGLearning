@@ -19,12 +19,15 @@ public class GoogleSearchTest {
 		chromeDriver = new ChromeDriver();
 		
 		chromeDriver.get("https://www.google.com/");
+		System.out.println("It will open google website");
+		
 		chromeDriver.manage().window().maximize();
 		try {
 			Thread.sleep(3000);
 		
 			// Enter text in search box
 			GoogleSearchPage.textboxSearch(chromeDriver).sendKeys("Automation Step By Step");
+			System.out.println("Enters Automation step by step in search box");
 			
 			//Click on Search Box
 			GoogleSearchPage.clickSearchBoxButton(chromeDriver).sendKeys(Keys.RETURN);
