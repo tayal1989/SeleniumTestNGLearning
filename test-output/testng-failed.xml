@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="2" name="Test_Chrome(failed)" parallel="tests">
-    <parameter name="browserName" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="multiple_browser.TestNGMultipleBrowserDemo">
+      <class name="listeners.TestNGListenerDemo">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="test"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- multiple_browser.TestNGMultipleBrowserDemo -->
+      </class> <!-- listeners.TestNGListenerDemo -->
     </classes>
-  </test> <!-- Test_Chrome(failed) -->
-  <test thread-count="2" name="Test_Firefox(failed)" parallel="tests">
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="multiple_browser.TestNGMultipleBrowserDemo">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="test"/>
-        </methods>
-      </class> <!-- multiple_browser.TestNGMultipleBrowserDemo -->
-    </classes>
-  </test> <!-- Test_Firefox(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
