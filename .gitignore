@@ -7,6 +7,8 @@
 *.settings
 *.classpath
 *.project
+*.idea
+*.DS_Store
 
 # Package Files #
 *.jar
@@ -20,3 +22,4 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 target/
 logs/
+test-output/

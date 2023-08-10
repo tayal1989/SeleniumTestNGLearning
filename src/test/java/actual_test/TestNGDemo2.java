@@ -14,8 +14,7 @@ public class TestNGDemo2 {
 	@BeforeTest
 	public void setUpTest() {
 		System.out.println("Before Test");
-		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/resources/chromedriver");
 		chromeDriver = new ChromeDriver();
 	}
 	
@@ -28,16 +27,12 @@ public class TestNGDemo2 {
 		
 		GoogleSearchPageObjects gs = new GoogleSearchPageObjects(chromeDriver) ;
 		try {
-			Thread.sleep(3000);
-		
 			// Enter text in search box			
 			gs.setTextInSearchBox("Automation Step By Step");
 			
 			//Click on Search Box
 			gs.clickSearchButton();
-			
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -51,16 +46,12 @@ public class TestNGDemo2 {
 		
 		GoogleSearchPageObjects gs = new GoogleSearchPageObjects(chromeDriver) ;
 		try {
-			Thread.sleep(3000);
-		
 			// Enter text in search box			
 			gs.setTextInSearchBox("Automation Step By Step");
 			
 			//Click on Search Box
 			gs.clickSearchButton();
-			
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

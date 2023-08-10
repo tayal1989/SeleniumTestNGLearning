@@ -9,8 +9,8 @@
 	<description>Learn Selenium TestNG from Udemy Lecture</description>
 	
 	<properties>
-		<jre.level>1.8</jre.level>
-		<jdk.level>1.8</jdk.level>
+		<jre.level>17</jre.level>
+		<jdk.level>${jre.level}</jdk.level>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -20,7 +20,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.11.0</version>
 				<configuration>
 					<source>${jdk.level}</source>
 					<target>${jdk.level}</target>
@@ -29,8 +29,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.17</version>
-				<!-- <version>2.18.1</version>	 -->
+				<version>3.1.2</version>
 				<configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <properties>
@@ -82,26 +81,26 @@
 		<dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-resources-plugin</artifactId>
-            <version>2.4.3</version>
+            <version>3.3.1</version>
         </dependency>
 		
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+			<version>4.11.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
+			<version>7.8.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -114,13 +113,13 @@
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
-			<version>2.11.2</version>
+			<version>2.20.0</version>
 		</dependency>
 		
 		<dependency>
     		<groupId>org.apache.poi</groupId>
     		<artifactId>poi-ooxml</artifactId>
-    		<version>4.0.1</version>
+    		<version>5.2.3</version>
 		</dependency>
 
         <dependency>
@@ -132,7 +131,7 @@
 		<dependency>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.7.9</version>
+			<version>0.8.10</version>
 		</dependency>
 		
 	</dependencies>
